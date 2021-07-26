@@ -88,6 +88,10 @@ section#dev-skills {
     padding-top: 30px;
 }
 
+section#languages {
+    padding-bottom: 30px;
+}
+
 section h2 {
     padding: 0 5px;
     position: absolute;  
