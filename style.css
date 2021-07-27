@@ -152,6 +152,11 @@ section h2 {
     color: #494d58;
 }
 
+.language__list {
+    font-size: 15px;
+    color: #494d58;
+}
+
 .language__item {
     margin-bottom: 15px;
 }
@@ -165,6 +170,8 @@ section h2 {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    font-size: 15px;
+    color: #494d58;
 }
 
 .skill__item {
