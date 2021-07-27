@@ -15,8 +15,6 @@ ul {
 
 .page__wrapper {
     max-width: 1200px;
-    border: 1px solid #aaa;
-    box-shadow: 2px 2px 8px 1px #aaa;
 }
 
 .page__header {
@@ -99,7 +97,7 @@ section h2 {
     left: 50%;
     transform: translateX(-50%);
     background-color: white;
-    color: #2d2d2d;
+    color: #336699;
     white-space: nowrap;
 }
 
@@ -127,13 +125,19 @@ section h2 {
     padding-bottom: 20px;
 }
 
-.trayning-center__name {
+.trayning-center__name,
+.company__name,
+.job__possition {
     white-space: nowrap;
+    font-weight: 400;
+    color: #3487ce;
 }
 
 .company__work-duration,
 .trayning-center__duration {
     white-space: nowrap;
+    font-size: 15px;
+    color: #494d58;
 }
 
 .job,
@@ -144,6 +148,8 @@ section h2 {
 .job__description,
 .learning-description {
     text-align: justify;
+    font-size: 15px;
+    color: #494d58;
 }
 
 .language__item {
@@ -219,7 +225,6 @@ section h2 {
     .education__item {
         margin-bottom: 20px;
         display: flex;
-        border-width: 2px;
         margin-bottom: 60px;
     }
 
@@ -230,7 +235,7 @@ section h2 {
 
     .company, 
     .trayning-center {
-        border-right: 2px solid #ccc;
+        border-right: 1px solid #ccc;
     }
 
     .job,
@@ -284,6 +289,8 @@ section h2 {
 
     .page__wrapper {
         margin: var(--basic-gap) auto;
+        box-shadow: 2px 2px 8px 1px #aaa;
+        border: 1px solid #aaa;
     }
 
     .main-info img { 
