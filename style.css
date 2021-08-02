@@ -25,7 +25,7 @@ ul {
 
 .main-info {
     margin-bottom: var(--basic-gap);
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
 
 .main-info img {
